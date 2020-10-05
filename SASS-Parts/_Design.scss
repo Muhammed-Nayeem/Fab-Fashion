@@ -1,0 +1,116 @@
+.Design-Row
+{
+  @at-root
+  {
+    .Title-Text 
+    {
+      text-align: center;
+      padding: 40px 0;
+      h4 
+      {
+        color: #2D3134;
+        text-transform: capitalize;
+        font-size: 2rem;
+        margin-bottom: 6px;
+      }
+      .Bars
+      {
+        position: relative;
+        height: 6px;
+        width: 105px;
+        background:#d4fde0;
+        margin: 15px auto 20px;
+        border-radius: 30px;
+        &::before
+        {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: -3px;
+          height: 12px;
+          width: 12px;
+          border-radius: 50%;
+          background: #40fc7f;
+          animation: Move-Circle;
+          animation-duration: 3s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          // animation-direction: alternate;
+          @keyframes Move-Circle 
+          {
+            from
+            {
+              left: 0%;
+            }
+            to
+            {
+              left: 90%;
+            }
+          }
+        }
+      }
+      p 
+      {
+        color: #777A7C;
+        font-size: 1rem;
+      }
+    }
+    .Design-box
+    {
+      overflow: hidden;
+
+      .Single-box 
+      {
+        float: left;
+        width: 366px;
+        margin-right: 20px;
+        img 
+        {
+          width: 100%;
+          padding: 15px;
+          border: 1px solid #D8D8D8;
+        }
+        &:last-child
+        {
+          margin-right: 0;
+        }
+        .Title-Box 
+        {
+          width: 100%;
+          text-align: center;
+          h4 
+          {
+            text-transform: capitalize;
+            color: #E81F6B;
+            font-size: 23px;
+            padding: 10px 0;
+          }
+          p 
+          {
+            color: #777A7C;
+            font-size: 1rem;
+            margin-bottom: 10px;
+          }
+          a 
+          {
+            text-decoration: none;
+            color: #E81F6B;
+            text-transform: capitalize;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 8px 21px;
+            display: inline-block;
+            border: 1px solid #E81F6B;
+            margin-bottom: 8px;
+            transition: .5s;
+            &:hover
+            {
+              background: #E81F6B;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

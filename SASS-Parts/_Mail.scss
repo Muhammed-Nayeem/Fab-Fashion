@@ -1,0 +1,97 @@
+.Mail-Part
+{
+  margin: 60px 0;
+
+  .Mail-Title 
+  {
+    text-align: center;
+    padding-bottom: 25px;
+    h4 
+    {
+      text-transform: capitalize;
+      font-size: 2rem;
+      color: #454545;
+      margin-bottom: 10px;
+    }
+    .Bars
+    {
+      position: relative;
+      height: 6px;
+      width: 105px;
+      background:#d4fde0;
+      margin: 15px auto 20px;
+      border-radius: 30px;
+      &::before
+      {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -3px;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background: #40fc7f;
+        animation: Move-Circle;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        // animation-direction: alternate;
+        @keyframes Move-Circle 
+        {
+          from
+          {
+            left: 0%;
+          }
+          to
+          {
+            left: 90%;
+          }
+        }
+      }
+    }
+    p 
+    {
+      font-size: 1rem;
+      color: #777A7C;
+      margin-bottom: 10px;
+    }
+  }
+  .Mail-Box
+  {
+    width: 80%;
+    margin: 0 auto;
+    input[type="text"],input[type="email"],textarea 
+    {
+      width: 100%;
+      padding: 20px 15px;
+      margin-bottom: 25px;
+      font-weight: bold;
+      color: #6d6d6d;
+      border: 0;
+      outline: none;
+      border-radius: 2px;
+      box-shadow: inset 2px 2px 5px #cecbd1, inset -2px -2px 5px #ffffff;
+      background: none;
+    }
+    input[type="submit"]
+    {
+      padding: 12px 44px;
+      border: none;
+      background: none;
+      text-transform: uppercase;
+      font-size: 1rem;
+      margin: 0 auto;
+      display: block;
+      font-weight: bold;
+      background: #E81F6B;
+      color: #fff;
+      cursor: pointer;
+      transition: .5s;
+      &:hover
+      {
+        color: #E81F6B;
+        background: #ECEBE7;
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.Collection
+{
+  overflow: hidden;
+  margin-top: 20px;
+
+  .Collection-Left 
+  {
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+
+    .Frame 
+    {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 20px 25px 20px 80px;
+      position: relative;
+      background: #f4faff;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1;
+      transition: .7s;
+      &:last-child
+      {
+        margin-bottom: 0;
+      }
+      .Icon 
+      {
+        flex-basis: 10%;
+        i 
+        {
+          font-size: 25px;
+          color: #E81F6B;
+          height: 60px;
+          width: 60px;
+          padding: 18px 13px;
+          background: #CDF1D8;
+          border-radius: 40px;
+          transition: .5s;
+          border: 2px solid #cac7c7;
+        }
+      }
+      .Text 
+      {
+        flex-basis: 80%;
+        h4 
+        {
+          font-size: 28px;
+          text-transform: capitalize;
+          color: #454545;
+          transition: .7s;
+        }
+        p
+        {
+          color: #454545;
+          transition: .7s;
+        }
+      }
+      &::before
+      {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 1%;
+        background: linear-gradient(90deg,#E81F6B 0%,#fa4323 90%);
+        z-index: -1;
+        transition: .7s;
+      }
+      &:hover::before
+      {
+        width: 100%;
+      }
+      &:hover .Text h4,
+      &:hover .Text p
+      {
+        color: #f4faff;
+      }
+      &:hover .Icon i
+      {
+        transform: rotate(360deg);
+        background: #ffff;
+      }
+      &:hover
+      {
+        transform: translateY(-4px);
+      }
+    }
+  }
+
+  .Collection-Right 
+  {
+    float: right;
+    width: 620px;
+    img 
+    {
+      width: 100%;
+    }
+  }
+}

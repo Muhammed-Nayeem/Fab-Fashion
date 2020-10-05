@@ -1,0 +1,66 @@
+.Banner-Row
+{
+  position: relative;
+  img 
+  {
+    width: 100%;
+  }
+  @at-root
+  { 
+    .Content 
+    {
+      width: 50%;
+      padding: 0 20px;
+      top: 32%;
+      position: absolute;
+      h5 
+      {
+        color: #ffff;
+        letter-spacing: 2px;
+        font-size: 1rem;
+      }
+      h4 
+      {
+        color: #E81F6B;
+        text-transform: capitalize;
+        font-size: 5rem;
+        margin-top: -20px;
+        border-bottom: 2px solid #6d6d6d;
+      }
+      a 
+      {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        padding: 10px 0;
+        display: block;
+        span 
+        {
+          color: #E81F6B;
+        }
+      }
+      .Search 
+      {
+        width: 99%;
+        border: 2px solid #E81F6B;
+        #Search 
+        {
+          width: 90%;
+          background: none;
+          border: none;
+          outline: none;
+          color: #ffffff;
+          padding: 10px;
+        }
+        i
+        {
+          font-size: 20px;
+          color: #ffffff;
+          background: #E81F6B;
+          padding: 10px 16px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

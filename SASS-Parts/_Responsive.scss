@@ -1,0 +1,352 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+{
+  .container
+  {
+    width: 970px;
+  }
+  .Menu-Col 
+  {
+    width: 715px;
+  }
+  .Content {
+    width: 59%;
+  }
+  .Content .Search i 
+  {
+    padding: 11px 16px;
+  }
+  .Design-box .Single-box 
+  {
+    width: 310px;
+  }
+  .Gift-Row .Gift-Box .Single-Gift-Box 
+  {
+    width: 313px;
+    margin-right: 15px;
+  }
+  .About .About-Photo 
+  {
+    width: 450px;
+    margin-right: 15px;
+  }
+  .About .About-Text 
+  {
+    width: 505px;
+    margin: 31px 0;
+  }
+  .Videos .Videos-Text 
+  {
+    width: 480px;
+    margin-right: 15px;
+  }
+  .Videos .Video-Right 
+  {
+    width: 475px;
+  }
+  .Gallery .Gallery-Box .Single-Gallery 
+  {
+    width: 319px;
+  }
+  .Collection .Collection-Left 
+  {
+    width: 460px;
+    margin-right: 15px;
+  }
+  .Collection .Collection-Right 
+  {
+    width: 495px;
+    height: 473px;
+  }
+  .Collection .Collection-Right img 
+  {
+    height: 100%;
+  }
+  .Highlight .Highlight-Box .Hsingle-Box 
+  {
+    width: 475px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .Bottom-Cover 
+  {
+    height: 45vh;
+  }
+  .Top-Footer .Quick-Link 
+  {
+    flex-basis: 22%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  .container
+  {
+    width: 750px;
+  }
+  .Menu-Col 
+  {
+    width: 495px;
+  }
+  .Content 
+  {
+    width: 53%;
+    top: 35%;
+  }
+  .Content h5 
+  {
+    display: none;
+  }
+  .Content h4 
+  {
+    font-size: 3rem;
+    border-bottom: none;
+  }
+  .Content a 
+  {
+    font-size: 20px;
+  }
+  .Content .Search 
+  {
+    display: none;
+  }
+  .Design-box .Single-box 
+  {
+    width: 243px;
+    margin-right: 10px;
+  }
+  .Gift-Row .Gift-Box .Single-Gift-Box 
+  {
+    width: 243px;
+    padding: 2px;
+    margin-right: 10px;
+  }
+  .About .About-Photo 
+  {
+    width: 300px;
+    height: 408px;
+    margin-right: 10px;
+  }
+  .About .About-Text 
+  {
+    width: 440px;
+    padding: 0px;
+    margin: 6px 0;
+  }
+  .Videos .Videos-Text 
+  {
+    width: 100%;
+    margin-right: 0;
+  }
+  .Videos .Video-Right
+  {
+    width: 751px;
+  }
+  .Gallery .Gallery-Box .Single-Gallery 
+  {
+    width: 246px;
+    height: 240px;
+  }
+  .Collection .Collection-Left 
+  {
+    width: 390px;
+    margin-right: 8px;
+  }
+  .Collection .Collection-Left .Frame .Text 
+  {
+    flex-basis: 70%;
+  }
+  .Collection .Collection-Left .Frame .Text h4 
+  {
+    font-size: 24px;
+  }
+  .Collection .Collection-Right 
+  {
+    width: 352px;
+    height: 521px;
+  }
+  .Collection .Collection-Right img 
+  {
+    height: 100%;
+  }
+  .Highlight .Highlight-Box .Hsingle-Box 
+  {
+    width: 370px;
+    margin-right: 10px;
+    padding: 10px 15px;
+  }
+  .Bottom-Cover 
+  {
+    height: 35vh;
+  }
+  .Top-Footer .Fab-Fashion 
+  {
+    flex-basis: 90%;
+    margin-bottom: 25px;
+  }
+  .Top-Footer .Quick-Link 
+  {
+    flex-basis: 30%;
+  }
+  .Top-Footer .Newslatter 
+  {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  .container
+  {
+    width: 320px;
+  }
+  .Logo-Col 
+  {
+    width: 170px;
+    margin: 0px 75px;
+  }
+  .Menu-Col 
+  {
+    width: 100%;
+  }
+  .Menu-Col ul 
+  {
+    text-align: center;
+  }
+  .Content 
+  {
+    width: 46%;
+    top: 39%;
+  }
+  .Content h5 
+  {
+    display: none;
+  }
+  .Content h4 
+  {
+    font-size: 1rem;
+    border-bottom: none;
+  }
+  .Content a 
+  {
+    font-size: 12px;
+  }
+  .Content .Search 
+  {
+    display: none;
+  }
+  .Design-box .Single-box 
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .Gift-Row .Gift-Box .Single-Gift-Box 
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .About .About-Photo 
+  {
+    width: 100%;
+    height: 315px;
+  }
+  .About .About-Text 
+  {
+    width: 100%;
+    margin: 2px 0;
+  }
+  .Videos .Videos-Text
+  {
+    width: 100%;
+  }
+  .Videos .Video-Right 
+  {
+    width: 100%;
+    height: 188px;
+  }
+  .Gallery 
+  {
+    margin-top: 35px;
+  }
+  .Gallery .Gallery-Box .Single-Gallery 
+  {
+    width: 100%;
+  }
+  .Discount-Banner 
+  {
+    margin-top: 25px;
+  }
+  .Collection .Collection-Left 
+  {
+    width: 100%;
+  }
+  .Collection .Collection-Left .Frame 
+  {
+    width: 100%;
+    padding: 20px 12px 20px 30px;
+  }
+  .Collection .Collection-Left .Frame .Text 
+  {
+    flex-basis: 74%;
+  }
+  .Collection .Collection-Left .Frame .Text h4 
+  {
+    font-size: 24px;
+  }
+  .Collection .Collection-Right 
+  {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .Highlight .Highlight-Box .Hsingle-Box 
+  {
+    width: 100%;
+  }
+  .Activities h4 
+  {
+    font-size: 23px;
+  }
+  .Map iframe 
+  {
+    height: 210px;
+  }
+  .Bottom-Cover 
+  {
+    height: 45vh;
+  }
+  .Bottom-Cover .Cover-Text h5 
+  {
+    font-size: 22px;
+  }
+  .Bottom-Cover .Cover-Text p 
+  {
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .Top-Footer .Fab-Fashion 
+  {
+    flex-basis: 96%;
+  }
+  .Top-Footer .Quick-Link 
+  {
+    flex-basis: 96%;
+    margin-top: 20px;
+  }
+  .Top-Footer .Newslatter 
+  {
+    flex-basis: 96%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+  .container
+  {
+    width: 480px;
+  }
+  .Logo-Col 
+  {
+    margin: 0px 20px;
+  }
+}
